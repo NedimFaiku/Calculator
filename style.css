@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(16, 139, 221, 0.884) !important;
+}
+.kalkulatori{
+    text-align: center;
+    margin: auto;
+    margin-top: 3%;
+    max-width: 450px;
+    border-radius: 7%;
+    background-color: seashell;
+    box-shadow: 10px 10px 15px black;
+}
+.vija{
+    background: black; 
+    height: 2px;
+}
+.operatoret{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+    margin: auto;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.operatoret > h1{
+    font-size: 55px;
+}
+.rreshtiOperatoret{
+    margin: 50px 25px 35px !important;
+}
+form input{
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+form{
+    padding: 27px 15px 0;
+}
+
+@media screen and (max-width: 600px) {
+    .kalkulatori{
+        margin: 50px;
+        margin-top: 50px !important;
+    }
+    .operatoret{
+        width: 50px;
+        height: 50px;
+    }
+    .operatoret > h1{
+        font-size: 20px;
+    }
+    .rreshtiOperatoret{
+        margin: 5px 25px 10px !important;
+    }
+    form input{
+        width: 60px;
+    }
+}

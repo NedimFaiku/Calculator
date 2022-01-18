@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kalkulatori</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+</head>
+<body>
+    
+<div class="kalkulatori">
+    <form action="">
+        <div class="row">
+            <div class="col-4">
+                <input type="number" id="x">
+            </div>
+            <div class="col-2">
+                <h4 id="operatori"></h4>
+            </div>
+            <div class="col-4">
+                <div class="row">
+                    <div class="col-8">
+                        <input type="number" id="y">
+                    </div>
+                    <div class="col-1">
+                        <h4>=</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <h4 id="rez"></h4>
+            </div>
+        </div>
+    </form>
+
+    <hr class="vija">
+
+    <div class="row rreshtiOperatoret">
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="fshij">
+                <h1>C</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="modulo">
+                <h1>M</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="rrenja">
+                <h1>√</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row rreshtiOperatoret">
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="mbledh">
+                <h1>+</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="zbrit">
+                <h1>-</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="shumezo">
+                <h1>*</h1>
+            </div>
+        </div>
+    </div>
+    <div class="row rreshtiOperatoret">
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="pjesto">
+                <h1>/</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="perqindje">
+                <h1>%</h1>
+            </div>
+        </div>
+        <div class="col-4">
+            <div class="operatoret btn btn-primary" id="nderroVendet">
+                <h1><></h1>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<script src="script.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+</html>
